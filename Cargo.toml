@@ -1,0 +1,11 @@
+[package]
+name = "pomo-rs"
+description = "A simple command line pomodoro app"
+authors = ["Salil Wadnerkar"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+colored = "2"
+kittyaudio = "0.1.9"
+notify-rust = { version = "4" }
