@@ -44,7 +44,7 @@ pub fn start(name: String, mixer: &mut Mixer, sound: &Sound) {
         play_audio(mixer, sound);
         if get_confirmation("Start the break?") {
             start_pomo_session(name.as_str(), SessionType::Break, BREAK_TIME);
-            println!("The break ended.");
+            println!("\nThe break ended.");
             show_notification("break ended 🍅!");
             play_audio(mixer, sound);
         }
